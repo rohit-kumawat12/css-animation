@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: aquamarine;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 600px;
+    max-height: 80vh;
+    max-width: 80vw;
+    background-color: #ffcc88;
+    aspect-ratio: 1/1;
+    animation-name: boxAnimation;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    overflow: hidden ;
+}
+
+.cricle1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    width: 60%;
+    background-color: rgb(255, 111, 0);
+    margin: 10%;
+    overflow: hidden;
+}
+
+.cricle1::before {
+    position: absolute;
+    content: "";
+    background-color: black;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    width: 92%;
+    animation-name: cricle2Animation;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes boxAnimation{
+    0%   {background-color: #ffcc88;}
+    45%  {background-color: black;}
+    55%  {background-color: black;}
+    100% {background-color: #ffcc88;}
+}
+
+@keyframes cricle2Animation{
+    0%   {right: -92%;}
+    45%  {right: 4%;}
+    55%  {right: 4%;}
+    100% {right: 100%;}
+}
