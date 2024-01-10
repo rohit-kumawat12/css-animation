@@ -10,15 +10,11 @@ Welcome to the Colorful CSS Animation project! This repository features a captiv
 
 ## Getting Started
 
-1. Clone the repository: `git clone https://github.com/yourusername/ColorfulCSSAnimation.git`
+1. Clone the repository: `git clone https://github.com/rohit-kumawat12/css-animation.git`
 2. Open the `index.html` file in your preferred web browser.
 
 ## Customize
 
 Experiment with the code to customize colors, durations, or other properties to suit your creative preferences.
-
-## Feedback
-
-If you have any questions, suggestions, or feedback, feel free to [open an issue](https://github.com/yourusername/ColorfulCSSAnimation/issues).
 
 Enjoy the vibrant showcase! 🚀🌈
