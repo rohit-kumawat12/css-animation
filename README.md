@@ -2,6 +2,9 @@
 
 Welcome to the Colorful CSS Animation project! This repository features a captivating CSS animation showcase with a dynamic box and circling circular elements. Explore and customize this vibrant display for use in your web projects.
 
+## Preview
+[css-animation.webm](https://github.com/rohit-kumawat12/css-animation/assets/110055860/923ab067-9b67-4ac0-bcb7-fd1626111bd9)
+
 ## Features
 
 - **Responsive Design:** Utilizes Flexbox for a responsive layout across various screen sizes.
